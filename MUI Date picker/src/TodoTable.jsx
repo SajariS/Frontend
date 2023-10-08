@@ -8,7 +8,7 @@ function TodoTable({todos, todoDelete, gridRef}) {
 
     const columns = [
         {field: "description", sortable: true, filter: true, floatingFilter: true},
-        {field: "date", sortable: true, filter: true, floatingFilter: true},
+        {field: "dateFormat", sortable: true, filter: true, floatingFilter: true},
         {field: "priority", sortable: true, filter: true, floatingFilter: true,
             cellStyle: params => params.value === "High" ? {color: 'red' }: {color: 'black'} }
     ];
