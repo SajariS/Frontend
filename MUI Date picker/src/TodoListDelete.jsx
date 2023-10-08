@@ -61,7 +61,6 @@ function TodoList() {
                 <Button onClick={addTodo} variant="contained">Add</Button>
                 <Button onClick={deleteTodo} variant="contained">Delete</Button>
             </form>
-            <button onClick={deleteTodo}>Delete</button>
             <TodoTable todos={todos} todoDelete={deleteTodo} gridRef={gridRef} />
         </>
     )
